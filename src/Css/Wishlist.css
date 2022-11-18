@@ -1,0 +1,117 @@
+.wish-main-div{
+    width:78vw;
+    margin:auto;
+    margin-top:8rem;
+}
+.my-wishlist{
+    display: flex;
+}
+.my-wishlist h4{
+    display:flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 0.4rem 0.2rem;
+}
+.my-wishlist span{
+    display:flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #161515;
+    margin-left:0.25rem;
+    padding: 0.4rem 0rem 0.6rem;
+}
+.wish-items-div{
+    width:78vw;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    margin-top:1.9rem;
+    gap:4rem;
+}
+.wish-item-card{
+    width:15rem;
+    height: 24.8rem;
+    margin:0.3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.1rem;
+    position: relative;
+    cursor: context-menu;
+    border: 0.01px solid #dfdcdc;
+}
+.wish-item-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wish-item-image{
+    width: 238px;
+    height: 256px;
+    object-fit: cover;
+}
+.cancel-div{
+    position:absolute;
+    left: 12.95em;
+    top: 0.6em;
+    width: 1.3em;
+    border-radius: 2rem;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(239, 235, 235, 0.7);
+    border-color: grey;
+}
+.cancel{
+    width:8px;
+    height: 8px;
+}
+.name-price-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:14rem;
+    margin:1rem auto;
+}
+.title{
+    font-weight: 610;
+}
+.description{
+    font-size:0.9rem;
+    color: grey;
+}
+.wish-item-price-div{
+    margin-top:0.9rem;
+}
+.price{
+    font-size: 15px;
+    font-weight: 500;
+}
+.original-price{
+    margin-left:0.3rem;
+    font-size: 12px;
+    color:grey;
+    text-decoration: line-through;
+}
+.discount{
+    margin-left:0.5rem;
+    font-size: 13px;
+    color: #EC7272;
+}
+.move-to-bag-btn{
+    width: 14.9rem;
+    height: 2.6rem;
+    background-color: white;
+    border: 0.01px solid #dfdcdc;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    color: rgb(255, 63, 108);
+    font-weight: 700;
+    font-size: 0.87em;
+    cursor: pointer;
+}
+

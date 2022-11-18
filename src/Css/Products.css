@@ -1,0 +1,175 @@
+.products-div{
+    width:80.5%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    margin-top:4rem;
+    gap:2rem;
+    
+}
+.item-card{
+    width:17rem;
+    height: 21.8rem;
+    margin:0.3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.1rem;
+    position: relative;
+    cursor: context-menu;
+}
+.item-image{
+    width: 272px;
+    height: 230px;
+    object-fit: cover;
+}
+.bag-wish-btn-div{
+    display:none;
+    width:17rem;
+    height: 4rem;
+    position:absolute;
+    z-index:2;
+    background-color: white;
+    bottom:2.95rem;
+    animation-name: bigger;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+
+.item-card:hover .bag-wish-btn-div{
+    display:block;
+}
+.item-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@keyframes bigger{
+    from{height:4rem}
+    to{height:8rem}
+}
+.bag-wish-btn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:8rem;
+    cursor: pointer;
+    /* gap:1rem; */
+}
+.add-cart-btn{
+    width:12rem;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.9rem;
+    font-size: 13px;
+    font-weight: 550;
+    background-color: white;
+    border:0.2px solid rgb(203, 203, 203);
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+.cart-btn-color{
+    border-color: #f44f4f;
+    color: #f44f4f;
+}
+.add-cart-btn:hover{
+    /* box-shadow: 0 4px 300px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 0.5px solid black;
+}
+.wish-btn{
+    width:12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.9rem;
+    gap:0.4rem;
+    font-size: 13px;
+    font-weight: 550;
+    background-color: white;
+    border:0.1px solid rgb(203, 203, 203);
+    cursor: pointer;
+}
+.wish-btn:hover{
+    /* box-shadow: 0 4px 300px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 0.5px solid black;;
+}
+.wish-btn img{
+    width:15px;
+    height:15px;
+}
+.wished-btn{
+    width:12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.9rem;
+    gap:0.4rem;
+    font-size: 13px;
+    font-weight: 550;
+    background-color: white;
+    border:0.5px solid #f44f4f;
+    color: #f44f4f;
+    cursor: pointer;
+}
+.wished-heart{
+    width:15px;
+    height:15px;
+    color:#f44f4f;
+    padding-bottom: 0.2em;
+}
+.stock{
+    display:inline-block;
+    width:12rem;
+    color: grey;
+    font-size:13px;
+}
+.rating{
+    position:absolute;
+    z-index:1;
+    top:12rem;
+    right:12.7rem;
+    width: 3.5rem;
+    height: 1.5rem;
+    background-color: rgba(239, 235, 235, 0.7);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+}
+.sRating{
+    padding-top:0.15rem;
+}
+.title{
+    font-weight: 610;
+}
+.description{
+    font-size:0.9rem;
+    color: grey;
+}
+.name-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:15rem;
+    margin:1rem auto;
+}
+.price-disc{
+    margin-top:0.9rem;
+}
+.price{
+    font-size: 15px;
+    font-weight: 500;
+}
+.original-price{
+    margin-left:0.3rem;
+    font-size: 12px;
+    color:grey;
+    text-decoration: line-through;
+}
+.discount{
+    margin-left:0.5rem;
+    font-size: 13px;
+    color: #EC7272;
+}

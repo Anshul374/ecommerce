@@ -1,0 +1,218 @@
+.mb0{
+    margin-bottom:0;
+}
+.mt0{
+    margin-top:0;
+}
+.cart-right-div{
+    width:22.5vw;
+}
+.faded-heading{
+    font-size: 0.8rem;
+    font-weight: 650;
+    color: rgb(80 78 78);
+    cursor: context-menu;
+}
+.coupon-gift-div{
+    margin-left:0.95rem;
+    margin-top:2em;
+}
+.covid-relief-div{
+    height:8.5rem;
+    border-bottom:0.01px solid #ece7e7;
+}
+.checkbox-div{
+    margin-top:1rem;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox-div label{
+    cursor: pointer;
+}
+#covid{
+    margin-right:0.8rem;
+    width:17px;
+    height:17px;
+    border-color:#1f1e1e;
+    cursor:pointer;
+}
+.coupon-gift-div input{
+    margin:0;
+}
+.covid-rupees{
+    margin-top: 1.25rem;
+    margin-bottom: 0.6rem;
+    height: 2.8rem;
+    display:flex;
+    align-items: center;
+}
+.covid-rupees span{
+    margin-right:0.9em;
+    display: inline-block;
+    width:4em;
+    height: 0.8em;
+    padding: 0.2em 0.5em 1.7em;
+    border-radius: 4em;
+    border: 0.01px solid #d6d2d2;
+    text-align: center;
+    font-size: 0.98rem;
+    font-weight: 500;
+    cursor:pointer;
+}
+.covid-rupees span:hover{
+    background-color: rgb(244, 244, 244);
+}
+.know-more{
+    font-size: 0.95rem;
+    font-weight: 550;
+    color:#ff3f6c;
+    cursor: pointer;
+}
+.apply-coupon-div{
+    display:flex; 
+    height: 4.8rem;
+    border-bottom:0.01px solid #ece7e7;
+}
+.apply-coupon-div img{
+    width: 19px;
+    height: 19px;
+    margin-top:0.7rem;
+}
+.apply-coupon-off-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    cursor:context-menu;
+}
+.apply-coupon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.86rem;
+    font-weight: 649.95;
+    height: 2.2rem;
+}
+.apply-button{
+    height:2.5em;
+    width: 6em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color:rgb(255, 63, 108);
+    border:0.01px solid rgb(255, 63, 108);
+    background-color: white;
+    cursor: pointer;
+}
+.apply-button:hover{
+    background-color: #f5e3e3;
+}
+.off-first-order span{
+    font-size: 0.8em;
+    font-weight: 640;
+    color:#ff3f6c;
+    cursor: pointer;
+}
+.off-first-order p{
+    display:inline-block;
+    font-size: 0.8em;
+    color: #323030;
+}
+.gift-wrap-div{
+    display:flex;
+    background-color:#fff1ec;
+    height: 6.2em;
+}
+.gift-wrap-div img{
+    width:58px;
+    height:100px;
+    margin-left: 0.7rem;
+}
+.gift-wrap{
+    margin-left: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    cursor: context-menu;
+}
+.loved-one{
+    margin-top:0.65rem;
+}
+.loved-one h5,p,span{
+    margin:0;
+}
+.loved-one h5{
+    font-weight: 600;
+    font-size: 0.85em;
+}
+.loved-one p{
+    font-size: 0.75em;
+    color:grey;
+    margin-bottom:0;
+}
+.loved-one span{
+    font-size:0.7em;
+    font-weight: 450;
+    color:grey;
+}
+.add-gift-wrap{
+    font-size:0.8em;
+    font-weight: 500;
+    color:rgb(255, 63, 108);
+    cursor:pointer;
+}
+.total-amount{
+    display:flex;
+    flex-direction: column;
+    gap:0.4rem;
+    margin-left:0.95rem;
+    margin-top:1rem;
+    border-top: 0.01px solid #ece7e7;
+    cursor: context-menu;
+}
+.total-mrp,.discount-on-mrp,.coupon-discount,.conv-fee,.total-amount-last{
+    display:flex;
+    justify-content: space-between;
+}
+.faded-span{
+    font-size:0.85rem;
+    font-weight: 326;
+    color: #353535;
+}
+.convInner-fee{
+    text-decoration: line-through;
+    margin-right: 0.5em;
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: 450;
+}
+.conv-free{
+    color: green;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 450;
+}
+.total-amount-last{
+    padding-top: 1rem;
+    border-top: 0.01px solid #ece7e7;
+}
+.total-amount-last span{
+    font-size: 0.9rem;
+    font-weight:500;
+    color: #1f1e1e;
+}
+.place-order-btn{
+    margin-left: 0.95em;
+    margin-top: 1.3em;
+    width: 23em;
+    height: 2.5em;
+    background-color: rgb(255, 63, 108);
+    color:white;
+    border: 0;
+    font-size: 0.9em;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+.place-order-btn:hover{
+    background-color: rgb(233, 61, 103);
+}
+

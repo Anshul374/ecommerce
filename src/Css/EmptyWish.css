@@ -1,0 +1,40 @@
+.empty-div{ 
+    width:50%;
+    height: 87vh;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: context-menu;
+}
+.empty-div img{
+    width: 147px;
+    height: 147px;
+}
+.empty-div h3{
+    margin-bottom:1em;
+    font-size: 1.3em;
+    color: #2b2a2a;
+}
+.empty-div p{
+    margin-bottom: 3em;
+    width: 26em;
+    text-align: center;
+    color:#8d8989;
+    font-size: 1.1em;
+    font-weight: 349;
+}
+.empty-div button{
+    margin-top: 2em;
+    height: 1em;
+    padding: 0.5em 1em 1.95em;
+    font-size: 0.8em;
+    font-weight: 550;
+    border:0.01px solid rgb(255, 63, 108);
+    color:rgb(255, 63, 108);
+    background-color: white;
+}
+.empty-div button:hover{
+    background-color:#f5e3e3;
+}
